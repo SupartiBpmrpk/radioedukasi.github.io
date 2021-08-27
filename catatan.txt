@@ -1,0 +1,83 @@
+https://colabnotes.web.app/#appinventor25082021
+ssid:inixindowifi portable 2
+password:siapspbe
+
+Link app inventor
+http://ai2.appinventor.mit.edu/
+
+https://colabnotes.web.app/#appinventor25082021
+
+extension 
+https://community.appinventor.mit.edu/uploads/short-url/qdcpCfJsZ3dqvY3SUEAGG9Jxrpn.aix
+
+membuat aplikasi pembelajaran
+-tampilan (screen)
+ >registrasi
+ >login
+ >soal pilihan ganda
+ >soal menyamakan audio
+ >nilai
+
+-data 
+ >disediakan server statis
+
+ >format data
+  server
+  -pengguna(id,email,password)
+  -soalcerita(nosoal,noparagraf,teks,audio)
+  -pilganda(no,pertanyaan,pil-a,pil-b,pil-c,pil-d,jawaban,
+               aud-pertanyaan,aud-a,aud-b,aud-c,aud-d,aud-jawab)
+  -cekaudio(no,aud-pertanyaan)
+
+  lokal
+  -hasilpilganda(email,no-soal,jwb,b_s)
+  -hasilaudio(emal,no-soal,aud-jawab)
+  
+
+//---------------contoh data soalcerita------------------------//
+{
+"data":[
+["1","1","This story began up in Alfheim, where only winged elves lived. Life in Alfheim was joyful. Everything was perfect, except for one curious, young elf, Riien. Riien grew bored with daily life in Alfheim. So, she decided to leave Alfheim and explore the world below.","p1.mp3"],
+["1","2","She shed her wings and pretended to be a girl who was lost in the woods. Eventually, she was adopted by a friendly couple. Although they were very kind, they asked Riien to do chores everyday. As time went by, she got tired of the chores.","p2.mp3"],
+["1","3","Riien decided to run away to the world of dwarfs below the earth. The dwarfs were very creative and they made powerful magical tools. Riien was accepted as an apprentice in one of the dwarf’s workshops. However, working in a workshop was even harder than doing household chores. She wanted to go back to Alfheim.","p3.mp3"],
+["1","4","Without her wings, she had to climb the highest mountain to enter the magical gate of Alfheim. After an arduous journey, she finally reached the gate. She saw two fairies guarding the gate. The fairies learned that Riien had lost her wings. They judged Riien to be unworthy of Alfheim. So, she was not allowed in.","p4.mp3"],
+["1","5","Riien went to meet the dwarfs and asked for their help. Seven dwarfs came with her to the sacred forest and brought their magical tools. To grow her wings back, they would leave no stone unturned. However, until then, it was a whole world of exploration for them. That, however, is a story for another time; the story of Riien, which means “white”, and the seven dwarfs.","p5.mp3"],
+]
+}
+
+//--------------contoh data pilihan ganda---------------------//
+{
+"data":[
+["1","1. How would you describe life in Alfheim?","A. It is a sacred place.","B. It is full of happiness.","C. The place is mysterious.","D. There are many problems.","B","q1.mp3","auda","audb","audc","audd","ans1.mp3"],
+["2","2. What lesson can you learn from Riien and her story?","A. You can run away from your responsibilities.","B. You are responsible for your own actions.","C. You should be thankful for your friends.","D. You will always find what you need.","B","q2.mp3","auda","audb","audc","audd","ans2.mp3"],
+["3","3. How would you describe Riien in the story?","A. She is dilligent.","B. She is unworthy.","C. She is spontaneous.","D. She is ambitious.","C","q3.mp3","auda","audb","audc","audd","ans3.mp3"],
+["4","4. What is the core problem in the story?","A. Riien is not satisfied with her life.","B. Riien wants to explore Alfheim.","C. Riien accidentally lost her wings.","D. Riien has seven dwarven friends.","A","q4.mp3","auda","audb","audc","audd","ans4.mp3"],
+["5","5. From the story, we were told that, they would leave no stone unturned. What does this expression mean?","A. They would not change their ways.","B. They would explore all possible ways.","C. They would turn all stones into elven wings","D. They would definitely help to grow her wings back.","B","q5.mp3","auda","audb","audc","audd","ans5.mp3"],
+]
+}
+
+
+
+----------------------------
+
+koneksi ke perangkat
+-install mit companion di android
+-dari app inventor 
+  connect->aicompanion
+
+
+list a = [1,2,5,7,9,12];
+
+dictionary pegawai = {"nama":"amir",  "alamat":"jogja"}
+
+
+file di hosting di 
+https://github.com/
+
+
+
+
+
+
+
+
